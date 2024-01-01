@@ -23,8 +23,8 @@
       prediction.
     • Utilize classification algorithms (e.g., logistic regression, decision trees, random forests, or gradient boosting) to predict the 'drug' based on 'gender', 
       'age', 'bp', 'cholesterol', and 'na_to_k ratio'.
-    •	Evaluate the models using metrics such as accuracy, precision, recall, or F1-score to assess their performance on the test dataset.
-    •	Once satisfied with the model's performance, deploy it for predictions on new data, considering real-world implications and ethical considerations.
+    • Evaluate the models using metrics such as accuracy, precision, recall, or F1-score to assess their performance on the test dataset.
+    • Once satisfied with the model's performance, deploy it for predictions on new data, considering real-world implications and ethical considerations.
 
 ## Deploying a machine learning model with Django
 
