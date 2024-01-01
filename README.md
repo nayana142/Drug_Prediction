@@ -12,6 +12,7 @@
 ## Bisinuss problem
 =======================
 Empowering healthcare with predictive drug analysis, our business harnesses data-driven methodologies to forecast treatment responses, optimize medication choices, and revolutionize patient care. We're dedicated to shaping a future where tailored drug predictions pave the way for personalized and effective healthcare solutions.
+
 ## Project Accomplishments and Process Overview
 ============================================================
 • Import the dataset and do usual exploratory data analysis steps like checking the structure & characteristics of the dataset.
@@ -24,6 +25,7 @@ Empowering healthcare with predictive drug analysis, our business harnesses data
 • Utilize classification algorithms (e.g., logistic regression, decision trees, random forests, or gradient boosting) to predict the 'drug' based on 'gender', 'age', 'bp', 'cholesterol', and 'na_to_k ratio'.
 •	Evaluate the models using metrics such as accuracy, precision, recall, or F1-score to assess their performance on the test dataset.
 •	Once satisfied with the model's performance, deploy it for predictions on new data, considering real-world implications and ethical considerations.
+
 ## Deploying a machine learning model with Django
 ============================================================
 • Create a Django Project:
