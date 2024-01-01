@@ -26,7 +26,7 @@
     • Evaluate the models using metrics such as accuracy, precision, recall, or F1-score to assess their performance on the test dataset.
     • Once satisfied with the model's performance, deploy it for predictions on new data, considering real-world implications and ethical considerations.
 
-## Deploying a machine learning model with Django
+## Web Application for a Drug Prediction Project using Django
 
     • Create a Django Project:
     • Set up a new Django project or use an existing one to build the web application. Use Django's structure to manage views, templates, and routes.
