@@ -1,0 +1,46 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <h1>Welcome to the Home Page</h1>
+    <form action="{% url 'predict' %}" method="post">
+        {% csrf_token %}
+        <label>Gender:</label>
+        <select name="gender">
+            <option value="0">Female</option>
+            <option value="1">Male</option>
+            </select><br>
+
+        <label>Age:</label>
+        <input type="number" name="age"  min="0" max="100"><br>
+
+        <label>Blood Pressure:</label>
+        <select name="bp">
+            <option value="1">Normal</option>
+            <option value="0">Low</option>
+            <option value="2">High</option>
+        </select><br>
+
+        <label>Cholestrol:</label>
+        <select name="cholesterol">
+            <option value="0">Normal</option>
+            <option value="1">High</option>
+        </select><br>
+
+        <label>Na_to_k:</label>
+        <input type="number" name="na_to_k"  min="0" max="60"><br>
+                
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
+
+
+            
