@@ -14,13 +14,15 @@
 ## Project Accomplishments and Process Overview
 
     • Import the dataset and do usual exploratory data analysis steps like checking the structure & characteristics of the dataset.
-    •	Drop the unique row Identifier if you see any. This step is important as you don’t want your model to build some understanding based on row numbers.
+    • Drop the unique row Identifier if you see any. This step is important as you don’t want your model to build some understanding based on row numbers.
     • Split the data into training and testing sets (70-30 split) for model evaluation.
     • Handle missing values through imputation or removal based on the amount of missing data and their importance to the analysis.
     • Encode categorical variables like 'gender' and 'cholesterol' into numerical format using techniques like one-hot encoding or label encoding.
     • Normalize or scale numerical features like 'age', 'bp', and 'na_to_k ratio' to ensure consistent ranges and aid model training. 
-    • Assess the importance of features through techniques like correlation analysis or feature importance from tree-based models to select relevant attributes for prediction.
-    • Utilize classification algorithms (e.g., logistic regression, decision trees, random forests, or gradient boosting) to predict the 'drug' based on 'gender', 'age', 'bp', 'cholesterol', and 'na_to_k ratio'.
+    • Assess the importance of features through techniques like correlation analysis or feature importance from tree-based models to select relevant attributes for 
+      prediction.
+    • Utilize classification algorithms (e.g., logistic regression, decision trees, random forests, or gradient boosting) to predict the 'drug' based on 'gender', 
+      'age', 'bp', 'cholesterol', and 'na_to_k ratio'.
     •	Evaluate the models using metrics such as accuracy, precision, recall, or F1-score to assess their performance on the test dataset.
     •	Once satisfied with the model's performance, deploy it for predictions on new data, considering real-world implications and ethical considerations.
 
