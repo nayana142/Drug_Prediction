@@ -1,5 +1,7 @@
 # Drug_Prediction
 =====================
+![1695984749446](https://github.com/nayana142/Drug_Prediction/assets/120770261/0c850a9d-8ecf-4c38-a9c3-f104995f0618)
+
 
 ## About Dataset
     * Age: Numeric input field.
